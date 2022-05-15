@@ -1,14 +1,27 @@
 /* hero section */
 
-body{
+body {
 
     font-family: "Montserrat";
     text-align: center;
 }
 
+h1 , h2 , h3 , h4 , h5 {
+    font-family: "Montserrat-Bold";
+}
+
+
+h3 {
+    font-size: 1.7rem;
+}
+
+em {
+    color: white;
+}
+
 .coloured-section {
     background-color: #ff4c68;
-    
+
 }
 
 
@@ -19,80 +32,152 @@ body{
 .container-fluid {
     padding: 5% 15%;
 }
- 
+
 /* navigation bar */
-.navbar{
+.navbar {
     margin-bottom: 7%;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
 }
 
-.nav-link{
+.nav-link {
     font-family: 'Montserrat-light';
     font-size: 1.25rem;
 
 }
 
-.nav-item{
+.nav-item {
     padding: 0 18px;
 }
 
 /* title  */
 
-.big-heading{
+
+
+.big-heading {
     font-family: "montserrat-black";
     font-size: 4rem;
     line-height: 1.5;
     margin-bottom: 40px;
     color: white;
+    text-align: left;
+   
 }
 
-.title-img{
+.title-img {
     width: 60%;
-    margin-left: 70px;
+    z-index: 0;
+    left: 20px;
+    position: relative;
     transform: rotate(20deg);
 }
 
-#features{
-    padding: 10% 5%;
+.title{
+    text-align: left;
 }
 
-.feature-box{
+/* features  */
+
+#features {
+    padding: 10% 5%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
     padding: 0% 5%;
 }
 
-.icon{
+.icon {
     margin-bottom: 20px;
     color: #ff4c68
 }
-.icon:hover{
+
+.icon:hover {
     color: #FF193D;
 }
-h3{
-    font-size: 1.7rem;
-}
 
-#testimonials{
+
+/* testimonal  */
+
+
+#testimonials {
     background-color: #FF99A8;
 }
 
-.testimonial-text{
+.testimonial-text {
     font-size: 2.5rem;
     color: white;
-    line-height: 2 ;
+    line-height: 2;
 }
 
-.testimonial-image{
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin-right: 20px;
 }
 
-em{
-    color: white;
+/* press  */
+
+#press {
+    padding: 7% 5%;
+
 }
 
+.press-img {
+    padding: 0 3%;
+    width: 20%;
+}
 
+/* pricing */
+
+.white-section {
+    padding: 5%;
+}
+
+.section-heading {
+    font-family: "montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.section-para {
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.card-header {
+    font-family: "montserrat-Bold";
+}
+
+.price-text {
+    font-family: "montserrat-Bold";
+    font-size: 3rem;
+}
+
+.button {
+    width: 100%;
+    
+}
+
+/* cta  */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 10% 5%;
+}
+
+.cta-heading {
+    font-family: "montserrat-Bold";
+    color: white;
+    margin-bottom: 3%;
+    font-size: 3rem;
+}
+
+.social-icon {
+    margin: 10px 20px;
+}
