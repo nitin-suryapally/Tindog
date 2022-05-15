@@ -1,5 +1,11 @@
 /* hero section */
 
+body{
+
+    font-family: "Montserrat";
+    text-align: center;
+}
+
 .coloured-section {
     background-color: #ff4c68;
     
@@ -50,5 +56,43 @@
     transform: rotate(20deg);
 }
 
+#features{
+    padding: 10% 5%;
+}
+
+.feature-box{
+    padding: 0% 5%;
+}
+
+.icon{
+    margin-bottom: 20px;
+    color: #ff4c68
+}
+.icon:hover{
+    color: #FF193D;
+}
+h3{
+    font-size: 1.7rem;
+}
+
+#testimonials{
+    background-color: #FF99A8;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    color: white;
+    line-height: 2 ;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+em{
+    color: white;
+}
 
 
